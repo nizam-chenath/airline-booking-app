@@ -22,3 +22,8 @@
 .read-the-docs {
   color: #888;
 }
+@media(max-width: 450px){
+  #root{
+    padding: 0;
+  }
+}
