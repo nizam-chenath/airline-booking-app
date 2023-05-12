@@ -1,0 +1,149 @@
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 320px;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 10px;
+  
+    .form-group {
+      margin-right: 1rem;
+      flex-grow: 1;
+  
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+        color: white;
+        font-size: 1.3rem;
+      }
+  
+      input[type="text"],
+      input[type="date"] {
+        display: block;
+        width: 95%;
+        height: 42px;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 0.25rem;
+        font-size: 1.3rem;
+      }
+    }
+  
+    button[type="submit"] {
+      padding: 1rem 1rem;
+      background-color: #1c1c1c;
+      color: #fff;
+      border: none;
+      border-radius: 0.25rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-top: 30px;
+  
+      &:hover {
+        background-color: #0069d9;
+      }
+    }
+
+ 
+
+  
+  
+    @media only screen and (max-width: 767px) {
+      .form-group {
+        margin-bottom: 1rem;
+      }
+  
+      button[type="submit"] {
+        width: 100%;
+      }
+    }
+
+    
+  }
+  @media(max-width: 600px){
+.search-form{
+    height: 420px;
+    margin-top: 20px;
+}
+  }
+  
+     // search-results.scss
+.flight-results{
+
+
+    // search-results.scss
+
+$search-results-color: #2f4f4f;
+$search-results-hover-color: #5f9ea0;
+$search-results-border-color: #dcdcdc;
+$search-results-background-color: #f7f7f7;
+
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+  .result-card {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+    .result-card-header {
+      background-color: $search-results-background-color;
+      color: $search-results-color;
+      padding: 1rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border-bottom: 1px solid $search-results-border-color;
+    }
+
+    .result-card-body {
+      padding: 1rem;
+
+      .flight-details {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.9rem;
+
+        .flight-detail-item {
+          display: flex;
+          align-items: center;
+          margin-right: 1rem;
+
+          .icon {
+            font-size: 1.2rem;
+            margin-right: 0.5rem;
+          }
+        }
+      }
+
+      .price {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 1.5rem;
+      }
+    }
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+      background-color: $search-results-hover-color;
+      transition: all 0.3s ease;
+
+      .result-card-header {
+        color: white;
+      }
+    }
+  }
+}
+
+
+}

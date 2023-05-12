@@ -1,0 +1,88 @@
+[ 
+     {    "id": 1,    "airline": "American Airlines",    "origin": "New York",    "destination": "Los Angeles",    "departureTime": "2023-05-15T12:00:00Z",    "arrivalTime": "2023-05-15T15:30:00Z",    "duration": "3 hours 30 minutes",    "price": 200  },
+  {    "id": 2,    "airline": "Delta Airlines",    "origin": "Chicago",    "destination": "Miami",    "departureTime": "2023-05-15T13:30:00Z",    "arrivalTime": "2023-05-15T17:30:00Z",    "duration": "4 hours",    "price": 250  },
+    {    "id": 3,    "airline": "United Airlines",    "origin": "San Francisco",    "destination": "New York",    "departureTime": "2023-05-16T08:00:00Z",    "arrivalTime": "2023-05-16T16:30:00Z",    "duration": "8 hours 30 minutes",    "price": 300  },
+      {    "id": 4,    "airline": "JetBlue Airways",    "origin": "Boston",    "destination": "San Francisco",    "departureTime": "2023-05-16T10:30:00Z",    "arrivalTime": "2023-05-16T14:30:00Z",    "duration": "6 hours",    "price": 280  },
+      
+        {
+          "id": 5,
+          "airline": "Air India",
+          "origin": "Cochin",
+          "destination": "Delhi",
+          "departureTime": "2023-06-01T07:30:00.000Z",
+          "arrivalTime": "2023-06-01T10:30:00.000Z",
+          "duration": "03h 00m",
+          "price": 3000
+        },
+        {
+          "id": 6,
+          "airline": "Indigo",
+          "origin": "Cochin",
+          "destination": "Mumbai",
+          "departureTime": "2023-06-02T10:00:00.000Z",
+          "arrivalTime": "2023-06-02T12:30:00.000Z",
+          "duration": "02h 30m",
+          "price": 2500
+        },
+        {
+          "id": 7,
+          "airline": "SpiceJet",
+          "origin": "Trivandrum",
+          "destination": "Chennai",
+          "departureTime": "2023-06-03T09:15:00.000Z",
+          "arrivalTime": "2023-06-03T11:00:00.000Z",
+          "duration": "01h 45m",
+          "price": 2000
+        },
+        {
+          "id": 8,
+          "airline": "Air Asia",
+          "origin": "Cochin",
+          "destination": "Bangalore",
+          "departureTime": "2023-06-04T08:30:00.000Z",
+          "arrivalTime": "2023-06-04T10:00:00.000Z",
+          "duration": "01h 30m",
+          "price": 1800
+        },
+        {
+          "id": 9,
+          "airline": "Vistara",
+          "origin": "Trivandrum",
+          "destination": "Kolkata",
+          "departureTime": "2023-06-05T12:00:00.000Z",
+          "arrivalTime": "2023-06-05T15:00:00.000Z",
+          "duration": "03h 00m",
+          "price": 4000
+        },
+        {
+          "id": 10,
+          "airline": "GoAir",
+          "origin": "Cochin",
+          "destination": "Hyderabad",
+          "departureTime": "2023-06-06T16:00:00.000Z",
+          "arrivalTime": "2023-06-06T18:30:00.000Z",
+          "duration": "02h 30m",
+          "price": 2200
+        },
+        {
+          "id": 11,
+          "airline": "Air India",
+          "origin": "Trivandrum",
+          "destination": "Mumbai",
+          "departureTime": "2023-06-07T06:30:00.000Z",
+          "arrivalTime": "2023-06-07T09:30:00.000Z",
+          "duration": "03h 00m",
+          "price": 3500
+        },
+        {
+            "id": 12,
+            "airline": "Go Air",
+            "origin": "Cochin",
+            "destination": "Delhi",
+            "departureTime": "2023-06-01T07:30:00.000Z",
+            "arrivalTime": "2023-06-01T10:30:00.000Z",
+            "duration": "03h 00m",
+            "price": 4000
+          }
+    
+]
