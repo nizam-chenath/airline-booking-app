@@ -68,6 +68,23 @@
 .search-form{
     height: 420px;
     margin-top: 20px;
+
+    .form-group{
+      label{
+        font-size: 1rem;
+
+        
+      }
+      input[type="text"],
+      input[type="date"]{
+        height: 30px;
+        font-size: 1rem;
+
+      }
+    }
+    button[type="submit"]{
+      margin-top: 0;
+    }
 }
   }
   
